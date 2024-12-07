@@ -1,0 +1,15 @@
+mode = "debug" # debuf | release | test
+
+[tasksvr]
+port = ":8080"
+
+[log]
+level = "debug"
+format = "json"
+
+[MySQL]
+host = "127.0.0.1"
+port = "3306"
+user = "root"
+pass = "123456"
+db_name = "task"
